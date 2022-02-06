@@ -11,7 +11,7 @@
 it's a repo designed to create a **Web Application with Angular 13**
 
 
-* Frontend - [**Angular 13.2.1**](https://github.com/angular/angular/releases) & [**Angular CLI 13.2.2**](https://github.com/angular/angular-cli/releases/)
+* Frontend - [**Angular 13.2.1**]
 
 * UI prototype - [**bootstrap 5**](https://v5.getbootstrap.com/docs/5.0/getting-started/download/) 
 
@@ -25,12 +25,12 @@ it's a repo designed to create a **Web Application with Angular 13**
 </table>
 
 # [Live Demo](#live-demo)
-Here is a working live demo :  https://angular.ganatan.com/
+Here is a working live demo :  
 
 
 <p align="center">
   <p align="center">
-    <a href="https://angular.ganatan.com/">
+    <a href="#">
       <img src="https://media.giphy.com/media/9BuBBLc7keCgRojp92/giphy.gif" alt="Angular 13 Example 
       Application"/>
     </a>
@@ -87,14 +87,6 @@ Here is a working live demo :  https://angular.ganatan.com/
 ```bash
 # select a repo from github, gitlab or bitbucket
 
-# download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-app.git
-
-# download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-app.git
-
-# download the example or clone the repo from bitbucket
-git clone https://bitbucket.org/ganatan/angular-app.git
 
 # change directory
 cd angular-app
@@ -104,10 +96,14 @@ cd frontend
 npm install
 
 # start the server
+ng s -o
+# start the server
+ng s -o --port 4201
+# start the server
 npm start
 
 ```
-in your browser go to [http://localhost:4200](http://localhost:4200) 
+in your browser go to [http://localhost:4200](http://localhost:4201) 
 
 
 ## Front-end
@@ -118,7 +114,7 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ### Developpement
 * `npm run start`
-* in your browser [http://localhost:4200](http://localhost:4200) 
+* in your browser [http://localhost:4200](http://localhost:4201) 
 
 ## Tests
 * `npm run lint`
@@ -275,5 +271,3 @@ pm2 start process.config.js --env prod
 English Tutorials
 - Step by Step - https://www.ganatan.com/tutorials/en
 
-Tutoriels en français
-- Etapes par étapes - https://www.ganatan.com/tutorials
